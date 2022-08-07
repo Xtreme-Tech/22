@@ -28,7 +28,7 @@ bfile.close()
 #Reading the employee records from the file using load() module
 print("Now reading the employee records from the file")
 print ()
-readrec-1
+readrec=1
 try:
   with open("empfile.dat","rb") as bfile:
     while True:
